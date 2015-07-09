@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
-
+@property (weak, nonatomic) IBOutlet UIImageView *needle;
+- (IBAction)panGesture:(id)sender;
+@property (weak, nonatomic) IBOutlet UIPanGestureRecognizer *pan;
 @end
 
